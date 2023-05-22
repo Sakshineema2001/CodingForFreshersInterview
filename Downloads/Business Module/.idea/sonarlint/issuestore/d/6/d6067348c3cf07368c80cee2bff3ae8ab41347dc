@@ -1,0 +1,8 @@
+
+F
+java:S1948&"+Make "userRoles" transient or serializable.(¼·ê¬ÿÿÿÿÿ
+[	java:S107,"AConstructor has 9 parameters, which is greater than 7 authorized.(ï÷Îšùÿÿÿÿ
+G
+java:S1602f",Remove useless curly braces around statement(ó´ò²þÿÿÿÿ
+X
+java:S1117f"=Rename "userRoles" which hides the field declared at line 36.(ó´ò²þÿÿÿÿ

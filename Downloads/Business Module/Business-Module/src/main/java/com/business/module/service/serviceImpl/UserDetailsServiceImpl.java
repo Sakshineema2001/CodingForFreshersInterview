@@ -17,10 +17,12 @@ public class UserDetailsServiceImpl implements UserDetailsService
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException
 	{
+		System.out.println("-----------2------------");
 		User user = this.userRepository.findByUsername(username);
+		System.out.println("----user---" + user);
 		if(user == null){
 			System.out.println(user);
-			throw new UsernameNotFoundException("user not dound");
+			throw new UsernameNotFoundException("user not found");
 		}
 		return user;
 	}

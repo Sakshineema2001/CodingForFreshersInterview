@@ -41,7 +41,7 @@ public class AuthenticateController
 	{
 		try
 		{
-
+			System.out.println("----here---");
 			authenticate(jwtRequest.getUsername(), jwtRequest.getPassword());
 
 		}
@@ -52,6 +52,7 @@ public class AuthenticateController
 
 		UserDetails userDetails = this.userDetailsService.loadUserByUsername(jwtRequest.getUsername());
 		String token = this.jwtUtils.generateToken(userDetails);
+		System.out.println("---------token--------" + token);
 		return ResponseEntity.ok(new JWTResponse(token));
 	}
 
@@ -72,6 +73,7 @@ public class AuthenticateController
 	//returns the details of current user
 	@GetMapping("/current-user")
 	public User getCurrentDetails(Principal principal){
+		System.out.println("-----------1------------");
          return (User) this.userDetailsService.loadUserByUsername(principal.getName());
 	}
 }

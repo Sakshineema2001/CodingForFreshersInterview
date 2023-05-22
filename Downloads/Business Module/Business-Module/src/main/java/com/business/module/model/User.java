@@ -189,4 +189,12 @@ public class User implements UserDetails
 	{
 		this.profile = profile;
 	}
+
+	@Override
+	public String toString()
+	{
+		return "User{" + "id=" + id + ", username='" + username + '\'' + ", password='" + password + '\'' + ", firstName='" + firstName
+				+ '\'' + ", lastName='" + lastName + '\'' + ", email='" + email + '\'' + ", phoneNo='" + phoneNo + '\'' + ", enable="
+				+ enable + ", profile='" + profile + '\'' + ", userRoles=" + userRoles + '}';
+	}
 }
