@@ -76,4 +76,37 @@ public class Practice
 		}
 		return stringBuilder.toString();
 	}
+
+	//swap two numbers without using 3rd variable
+
+	public static void swapTwo(int a,int b){
+		System.out.println("numbers before swaping" + "=" + a + "," + b);
+		a = a+b;
+		b = a-b;
+		a = a-b;
+		System.out.println("numbers after swaping" + "=" + a + "," + b);
+	}
+
+	//swap two numbers with using 3rd variable
+	public static void swaping(int a,int b){
+		System.out.println("numbers before swaping" + "=" + a + "," + b);
+		int c;
+		c = b;
+		b = a;
+		a = c;
+		System.out.println("numbers after swaping" + "=" + a + "," + b);
+	}
+
+	//How many of the following numbers are divisible by 3 but not by 9. 4320, 2343, 3474, 4131, 5286, 5340, 6336, 7347, 8115, 9276
+	public static  void numbers(){
+		int numbers[] ={4320, 2343, 3474, 4131, 5286, 5340, 6336, 7347, 8115, 9276};
+		int count =0;
+		for(int num: numbers){
+			if(num%3 == 0 && num%9 !=0){
+				System.out.println(num);
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
 }
