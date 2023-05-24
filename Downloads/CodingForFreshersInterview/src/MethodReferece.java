@@ -25,8 +25,21 @@ public class MethodReferece
 
 		//2, method reference to an instance method of an object
 		MethodReferece methodReferece = new MethodReferece();
-		//lambdaExpression
+		// using lambdalambdaExpression
 		Printable printable = (msg) -> methodReferece.display(msg);
 		printable.print("heloooo");
+		//using method reference
+		Printable printable1 = methodReferece::display;
+		printable1.print("byee");
+
+
+		//3. reference to the instance method of an orbitary object
+		//using lambda Exp
+		Function<String , String> func = (String input) -> input.toLowerCase();
+		System.out.println(func.apply("NO"));
+
+		//using Method reference
+		Function<String , String> funcref = String::toLowerCase;
+		System.out.println(func.apply("NOOO"));
 	}
 }
