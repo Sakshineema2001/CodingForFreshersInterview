@@ -1,3 +1,5 @@
+package java8feature;
+
 public class ThreadWIthLambda
 {
 	public static void main(String[] args)

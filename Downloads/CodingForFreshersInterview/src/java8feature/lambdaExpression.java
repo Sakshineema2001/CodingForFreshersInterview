@@ -1,3 +1,5 @@
+package java8feature;
+
 import java.util.function.Function;
 
 //traditional way of method

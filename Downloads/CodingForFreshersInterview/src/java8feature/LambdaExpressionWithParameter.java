@@ -1,3 +1,5 @@
+package java8feature;
+
 public class LambdaExpressionWithParameter
 {
 	public static void main(String[] args)

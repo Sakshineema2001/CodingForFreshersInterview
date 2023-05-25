@@ -1,3 +1,9 @@
+package java8feature;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.function.Function;
 
 @FunctionalInterface
@@ -41,5 +47,21 @@ public class MethodReferece
 		//using Method reference
 		Function<String , String> funcref = String::toLowerCase;
 		System.out.println(func.apply("NOOO"));
+
+
+		//4. reference to a constructor
+		//using lambda Exp
+       List<String> ls = new ArrayList<>();
+	   ls.add("apple");
+		ls.add("mango");
+		ls.add("orange");
+		ls.add("orange");
+
+		Function<List<String>, Set<String>> fls = (fruitList) -> new HashSet<>(fruitList);
+		System.out.println(fls.apply(ls));
+
+		//using Method reference
+		Function<List<String>, Set<String>> fls2 = HashSet::new;
+		System.out.println(fls2.apply(ls));
 	}
 }
