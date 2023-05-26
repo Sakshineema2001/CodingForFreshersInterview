@@ -1,0 +1,20 @@
+
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(··+
+z
+java:S1149C"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(±Ù¾åıÿÿÿÿ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(¦ºÌ‚øÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(×àİÌûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æ±•é
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Èóúï
+M	java:S106."9Replace this use of System.out or System.err by a logger.(ƒÚáB
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ˆõÒ
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(ªñ²å
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(ö¸ùÛøÿÿÿÿ
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(ªñ²å8…­ıÄ„1
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(ö¸ùÛøÿÿÿÿ8…­ıÄ„1
+@
+java:S1197f"*Move the array designators [] to the type.(ÖÑÏ¿
+Z	java:S106j"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ8†­ıÄ„1
+Z	java:S106n"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8‡­ıÄ„1

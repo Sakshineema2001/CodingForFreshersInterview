@@ -37,7 +37,7 @@ public class StreamFilterExample
 		List<Product> list2 = getList().stream().filter((product -> product.getPrice() > 2000)).collect(Collectors.toList());
 		list2.forEach(System.out::println);
 		System.out.println("***********************************************");
-		//orelse
+		//or else
 		getList().stream().filter((product -> product.getPrice() > 2000)).forEach(System.out::println);
 	}
 

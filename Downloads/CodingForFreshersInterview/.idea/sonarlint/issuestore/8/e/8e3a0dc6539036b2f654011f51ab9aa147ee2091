@@ -1,6 +1,0 @@
-
-t
-java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "c".(«¹Âµùÿÿÿÿ
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8±¤âã„1
-E
-java:S1481"(Remove this unused "lm2" local variable.(©–İÃ8íµâã„1

@@ -1,0 +1,19 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œ²íøÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(‚š‰1
+N
+java:S1611"3Remove the parentheses around the "input" parameter(Øëıúøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨õ§ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ùßáÀüÿÿÿÿ
+G
+java:S1611#"1Remove the parentheses around the "msg" parameter(”±ãÏ
+Z
+java:S1612#"DReplace this lambda with method reference 'methodReferece::display'.(”±ãÏ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(´Æ»Å
+G
+java:S14810",Remove this unused "funcref" local variable.(­ùñÿÿÿÿÿ
+M	java:S1061"9Replace this use of System.out or System.err by a logger.(ŞÛã[
+R
+java:S1611<"7Remove the parentheses around the "fruitList" parameter(²çöÆÿÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(æ÷¦ä
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(§œêœúÿÿÿÿ
